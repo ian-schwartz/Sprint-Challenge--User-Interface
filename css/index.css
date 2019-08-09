@@ -140,6 +140,45 @@ header {
     justify-content: center;
 }
 
+.middle-content .box.b1 {
+    background-color: teal;
+}
+
+.middle-content .box.b2 {
+    background-color: gold;
+}
+.middle-content .box.b3 {
+    background-color: cadetblue;
+}
+
+.middle-content .box.b4 {
+    background-color: coral;
+}
+
+.middle-content .box.b5 {
+    background-color: crimson;
+}
+
+.middle-content .box.b6 {
+    background-color: forestgreen;
+}
+
+.middle-content .box.b7 {
+    background-color: darkorchid;
+}
+
+.middle-content .box.b8 {
+    background-color: hotpink;
+}
+
+.middle-content .box.b9 {
+    background-color: indigo;
+}
+
+.middle-content .box.b10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -172,3 +211,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
