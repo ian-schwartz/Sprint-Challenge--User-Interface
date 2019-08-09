@@ -66,6 +66,22 @@ p {
     line-height: 1.4;
 }
 
+header {
+    height: 10%;
+}
+
+.nav-box .item {
+    
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
