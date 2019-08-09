@@ -66,6 +66,47 @@ p {
     line-height: 1.4;
 }
 
+header {
+    height: 10%;
+}
+
+.nav-box .item {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.jumbo-img-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.jumbo-about-img-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.about-section {
+    margin-top: 200px;
+}
+
+.jumbo-img {
+    width: 90%;
+}
+
+.jumbo-about-img {
+    width: 90%;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -83,6 +124,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 220px;
 }
 
 .middle-content {
@@ -112,6 +154,45 @@ p {
     justify-content: center;
 }
 
+.middle-content .box.b1 {
+    background-color: teal;
+}
+
+.middle-content .box.b2 {
+    background-color: gold;
+}
+.middle-content .box.b3 {
+    background-color: cadetblue;
+}
+
+.middle-content .box.b4 {
+    background-color: coral;
+}
+
+.middle-content .box.b5 {
+    background-color: crimson;
+}
+
+.middle-content .box.b6 {
+    background-color: forestgreen;
+}
+
+.middle-content .box.b7 {
+    background-color: darkorchid;
+}
+
+.middle-content .box.b8 {
+    background-color: hotpink;
+}
+
+.middle-content .box.b9 {
+    background-color: indigo;
+}
+
+.middle-content .box.b10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +205,27 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.container.about-page {
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+/* .content-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+} */
+
+.content {
+    margin: 20px;
+    width: 300px;
+}
+
+hr {
+    border-top: 1px dotted;
 }
 
 footer {
@@ -144,3 +246,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
