@@ -208,21 +208,20 @@ header {
 }
 
 .container.about-page {
-    /* margin: 220px 80px; */
     display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
-.content-box {
+/* .content-box {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-}
+} */
 
 .content {
-    border: 1px solid black;
     margin: 20px;
+    width: 300px;
 }
 
 hr {
