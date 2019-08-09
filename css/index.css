@@ -94,6 +94,10 @@ header {
     margin-top: 45px;
 }
 
+.about-section {
+    margin-top: 150px;
+}
+
 .jumbo-img {
     width: 90%;
 }
@@ -201,6 +205,28 @@ header {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.container.about-page {
+    /* margin: 220px 80px; */
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.content-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.content {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+hr {
+    border-top: 1px dotted;
 }
 
 footer {
